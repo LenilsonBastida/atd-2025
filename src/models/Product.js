@@ -27,9 +27,9 @@ const products = [];
 // Initialize with 3 default products
 const initializeProducts = () => {
   if (products.length === 0) {
-    products.push(new Product(1, 'Laptop', 'High-performance laptop for work and gaming', 999.99, 50));
-    products.push(new Product(2, 'Smartphone', 'Latest model smartphone with advanced features', 699.99, 30));
-    products.push(new Product(3, 'Headphones', 'Wireless noise-canceling headphones', 199.99, 100));
+    products.push(new Product(1, 'Laptop', 'High-performance laptop for work and gaming', 999.99, 50000));
+    products.push(new Product(2, 'Smartphone', 'Latest model smartphone with advanced features', 699.99, 30000));
+    products.push(new Product(3, 'Headphones', 'Wireless noise-canceling headphones', 199.99, 100000));
   }
 };
 
